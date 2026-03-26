@@ -1,10 +1,10 @@
 [package]
-name = "phenotype_tracing"
+name = "helix-tracing"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-description = "Tracing utilities for Phenotype services"
-repository = "https://github.com/phenotype-dev/phenotype-tracing"
+description = "Distributed tracing utilities with tracing_subscriber, TraceContext, and span management"
+repository = "https://github.com/phenotype-dev/helix-tracing"
 readme = "README.md"
 
 [dependencies]

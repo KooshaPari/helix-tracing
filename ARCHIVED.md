@@ -9,10 +9,10 @@ The crate has been extracted and productized under a neutral name.
 ## Canonical location
 
 ```
-https://github.com/phenotype-dev/tracing-helpers
+https://github.com/phenotype-dev/helix-tracing
 ```
 
-Package name: `tracing-helpers`
+Package name: `helix-tracing`
 
 ## Migration
 
@@ -23,7 +23,7 @@ Replace in `Cargo.toml`:
 phenotype_tracing = { path = "path/to/phenotype-tracing" }
 
 # New
-tracing-helpers = { git = "https://github.com/phenotype-dev/tracing-helpers" }
+helix-tracing = { git = "https://github.com/phenotype-dev/helix-tracing" }
 ```
 
 Replace in source code:
@@ -33,7 +33,7 @@ Replace in source code:
 use phenotype_tracing::{TracingConfig, init_tracing};
 
 // New
-use tracing_helpers::{TracingConfig, init_tracing};
+use helix_tracing::{TracingConfig, init_tracing};
 ```
 
 ## Timeline
